@@ -36,4 +36,14 @@
 	git remote rm <name>	//解除本地和远程的绑定关系，并非物理上删除远程库
 	git remote -v	//查看远程库信息
 
-18.克隆远程仓库	 git clone git@github.com:tianxin5750/learngit.git
+18. 克隆远程仓库	 git clone git@github.com:tianxin5750/learngit.git
+
+19. 创建分支	git checkout -b fenzhi	//相当于 git branch fenzhi    git checkout fenzhi
+		git branch	//列出所有分支，当前分支前有*号
+		然后在当前分支上提交
+		git checkout master	//切回主分支
+		git merge fenzhi	//将fenzhi上的工作成果合并到master分支上
+		git branch -d fenzhi	//删除fenzhi
+
+20. switch	git switch -c fenzhi	//创建并切换到新的分支
+		git switch master
