@@ -35,3 +35,5 @@
 17. 删除远程库
 	git remote rm <name>	//解除本地和远程的绑定关系，并非物理上删除远程库
 	git remote -v	//查看远程库信息
+
+18.克隆远程仓库	 git clone git@github.com:tianxin5750/learngit.git
