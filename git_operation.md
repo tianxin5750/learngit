@@ -24,4 +24,14 @@
 13. git rm test  //删除版本库中文件，git rm，然后git commit
 14. git checkout -- test //一键还原误删文件
 
-15. 远程仓库
+15. 远程仓库	https://www.liaoxuefeng.com/wiki/896043488029600/896954117292416
+	创建SSH Key	ssh-keygen -t rsa -C "youremail@example.com"
+	主目录 -> .ssh目录 -> id_rsa（私钥) -> id_rsa.pub(公钥)
+	登陆GitHub -> 打开settings -> Add SSH Key:填上title,粘贴id_rsa.pub文件
+16. 添加远程库
+	git remote add origin git@github.com:tianxin5750/learngit.git
+	git push -u origin master	//第一次推送
+	git push origin master
+17. 删除远程库
+	git remote rm <name>	//解除本地和远程的绑定关系，并非物理上删除远程库
+	git remote -v	//查看远程库信息
