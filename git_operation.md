@@ -4,3 +4,6 @@
 
 4. git status
 5. git diff
+
+6. git log
+   git log --pretty=online
